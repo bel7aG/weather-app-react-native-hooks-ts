@@ -1,4 +1,7 @@
+import Weather from './Weather';
+import Header from './Header';
 import Loader from './Loader';
-import My from './My';
+import SearchBar from './SearchBar';
+import DismissKeyboard from './DismissKeyboard';
 
-export { Loader, My };
+export { Weather as default, Header, SearchBar, Loader, DismissKeyboard };

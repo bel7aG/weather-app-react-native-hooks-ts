@@ -3,7 +3,7 @@ import { ActivityIndicator } from 'react-native';
 import { SLoader } from './SLoader';
 
 interface LoaderProps {
-  size?: 'small' | 'large';
+  size?: 'small' | 'large' | number;
   color?: string;
   hidesWhenStopped?: boolean;
 }
